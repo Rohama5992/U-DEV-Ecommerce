@@ -1,0 +1,203 @@
+body {
+  padding-top: 70px;
+}
+.hero {
+  height: 100vh; /* Full screen height */
+  background: linear-gradient(to right, #111, #333); /* Dark gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1,
+.hero p {
+  color: white;
+}
+product-card{
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover{
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+
+        body{
+            padding-top: 70px; /* For fixed navbar */
+        }
+        .contact-header{
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://images.unsplash.com/photo-1541099649105-f69ad21f3246');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .contact-card{
+            transition: all 0.3s ease;
+            box-shadow:0 4px 12px rgba(0,0,0,0.1);
+        }
+        .contact-card:hover{
+            transform: translateY(-5px) scale(1.02);
+            box-shadow:0 10px 20px rgba(0,0,0,0.2);
+        }
+        .hero{
+height:45vh;
+background:
+linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1445205170230-053b83016050");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+body{padding-top:70px;}
+.cart-item{
+    transition: all 0.3s ease;
+    box-shadow:0 4px 12px rgba(132, 117, 117, 0.05);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom:15px;
+}
+.cart-item:hover{
+    transform: translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+.quantity-control button{
+    width:30px;
+    height:30px;
+    font-weight:bold;
+}
+.size-select{
+    width: 100px;
+}
+.checkout-section{
+    border-top:1px solid #ddd;
+    padding-top:20px;
+    margin-top:20px;
+}
+.account-container{
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.shipping-select{
+    width: 200px;
+}
+
+.product-images img{
+    width:100%;
+    border-radius:8px;
+    margin-bottom:15px;
+    object-fit:cover;
+    height:400px;
+}
+.color-option{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    display:inline-block;
+    margin-right:8px;
+    border:2px solid transparent;
+    cursor:pointer;
+}
+.color-option.selected{
+    border:2px solid #000;
+}
+.size-btn{
+    margin-right:5px;
+    margin-bottom:5px;
+}
+.quantity-control button{
+    width:35px;
+    height:35px;
+    border:none;
+    background:#f0f0f0;
+    cursor:pointer;
+}
+.quantity-control input{
+    width:50px;
+    text-align:center;
+    border:1px solid #ddd;
+    height:35px;
+}
+.section-title{
+    font-weight:bold;
+    margin-top:20px;
+    margin-bottom:10px;
+    border-bottom:1px solid #ddd;
+    padding-bottom:5px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+.product-card {
+  border: none;
+  transition: all 0.3s ease; /* Smooth animation */
+}
+.product-card:hover {
+  transform: translateY(-10px) scale(1.05); /* Move up + zoom */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+.btn {
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.fade-in {
+  animation: fadeIn 1.5s ease-in;
+}
+.slide-up {
+  animation: slideUp 1.2s ease-in;
+}
+.scale-in {
+  animation: scaleIn 1s ease-in;
+}*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+input[type="number"] {
+  width: 60px;
+}
+
+form .form-control {
+  margin-bottom: 10px;
+}
