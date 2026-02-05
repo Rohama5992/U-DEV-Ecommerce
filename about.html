@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - NovaWears</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">NovaWears</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HEADER ===== -->
+<section class="contact-header">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Get in Touch with NovaWears</h1>
+        <p class="lead">We’d love to hear from you! Reach out with questions or feedback.</p>
+    </div>
+</section>
+
+<!-- ===== OUTLET ADDRESSES ===== -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Our Outlets</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card contact-card p-3 text-center">
+                <h5>Main Store</h5>
+                <p>123 Fashion Street,<br>Karachi, Pakistan</p>
+                <p>📞 +92 300 1234567</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card contact-card p-3 text-center">
+                <h5>Downtown Branch</h5>
+                <p>45 Trendy Avenue,<br>Lahore, Pakistan</p>
+                <p>📞 +92 300 7654321</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card contact-card p-3 text-center">
+                <h5>City Center</h5>
+                <p>78 Style Road,<br>Islamabad, Pakistan</p>
+                <p>📞 +92 300 9876543</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT FORM ===== -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Contact Form</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form action="mailto:novawears@email.com" method="post" enctype="text/plain">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name *</label>
+                    <input type="text" class="form-control" id="name" name="Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email *</label>
+                    <input type="email" class="form-control" id="email" name="Email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone" name="Phone">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message *</label>
+                    <textarea class="form-control" id="message" name="Message" rows="5" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning btn-lg">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-dark text-light pt-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>NovaWears</h5>
+        <p>Your destination for modern fashion where style meets comfort and creativity.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="products.html" class="text-light text-decoration-none">Products</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Cart</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact</h5>
+        <p>Email: novawears@email.com</p>
+        <p>Phone: +92 300 0000000</p>
+        <p>Location: Pakistan</p>
+      </div>
+    </div>
+    <div class="text-center border-top mt-3 pt-3">
+        <ul class="list-unstyled mb-1">
+          <li>Refund Policy</li>
+          <li>Privacy Policy</li>
+          <li>Shipping Policy</li>
+          <li>Terms of Service</li>
+        </ul>
+        © 2026 NovaWears | All Rights Reserved
+    </div>
+  </div>
+</footer>
+</body>
+</html>
